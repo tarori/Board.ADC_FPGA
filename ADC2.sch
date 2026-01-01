@@ -324,30 +324,71 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <package name="SOP8-2">
 <description>&lt;b&gt;SOP8&lt;/b&gt;&lt;p&gt;
 Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</description>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="1.6" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="1.6" layer="1"/>
+<smd name="1" x="-1.905" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="2" x="-0.635" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="3" x="0.635" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="4" x="1.905" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="5" x="1.905" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="6" x="0.635" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="7" x="-0.635" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="8" x="-1.905" y="2.7" dx="0.52" dy="1.4" layer="1"/>
 <text x="-3.175" y="-3.175" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-3.175" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-2.8575" y1="-3.81" x2="2.8575" y2="-3.81" width="0.0508" layer="39"/>
-<wire x1="2.8575" y1="-3.81" x2="2.8575" y2="3.81" width="0.0508" layer="39"/>
-<wire x1="2.8575" y1="3.81" x2="-2.8575" y2="3.81" width="0.0508" layer="39"/>
-<wire x1="-2.8575" y1="3.81" x2="-2.8575" y2="-3.81" width="0.0508" layer="39"/>
-<wire x1="-2.54" y1="2.2225" x2="-2.54" y2="-2.2225" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-2.2225" x2="2.54" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="2.8575" y1="-2.2225" x2="2.8575" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="3.81" x2="-2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="-2.8575" y1="2.2225" x2="-2.8575" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.54" y1="2.2225" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.2225" x2="2.54" y2="-2.2225" width="0.127" layer="51"/>
 <wire x1="2.54" y1="-2.2225" x2="2.54" y2="2.2225" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.2225" x2="-2.54" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.2225" x2="-2.54" y2="2.2225" width="0.127" layer="51"/>
+<wire x1="-2.8575" y1="2.2225" x2="-2.38125" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.38125" y1="2.2225" x2="-2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="-2.8575" y1="-2.2225" x2="-2.38125" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.38125" y1="-2.2225" x2="-2.38125" y2="-3.81" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-3.81" x2="2.38125" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-2.2225" x2="2.8575" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="2.8575" y1="2.2225" x2="2.38125" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="2.2225" x2="2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-3.81" x2="-2.38125" y2="-3.81" width="0.0508" layer="39"/>
 <polygon width="0.127" layer="21">
 <vertex x="-2.54" y="-2.2225"/>
 <vertex x="-2.8575" y="-2.2225"/>
 <vertex x="-2.8575" y="-0.635"/>
 <vertex x="-2.54" y="-0.635"/>
 </polygon>
+</package>
+<package name="SOP8-3">
+<description>&lt;b&gt;SOP8&lt;/b&gt;&lt;p&gt;
+Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</description>
+<smd name="1" x="-1.905" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="2" x="-0.635" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="3" x="0.635" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="4" x="1.905" y="-2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="5" x="1.905" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="6" x="0.635" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="7" x="-0.635" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<smd name="8" x="-1.905" y="2.7" dx="0.52" dy="1.4" layer="1"/>
+<text x="-3.175" y="-3.175" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.175" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="2.8575" y1="-2.2225" x2="2.8575" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="3.81" x2="-2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="-2.8575" y1="2.2225" x2="-2.8575" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.54" y1="2.2225" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.2225" x2="2.54" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-2.2225" x2="2.54" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.2225" x2="-2.54" y2="2.2225" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2.8575" y1="2.2225" x2="-2.38125" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.38125" y1="2.2225" x2="-2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="-2.8575" y1="-2.2225" x2="-2.38125" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="-2.38125" y1="-2.2225" x2="-2.38125" y2="-3.81" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-3.81" x2="2.38125" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-2.2225" x2="2.8575" y2="-2.2225" width="0.0508" layer="39"/>
+<wire x1="2.8575" y1="2.2225" x2="2.38125" y2="2.2225" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="2.2225" x2="2.38125" y2="3.81" width="0.0508" layer="39"/>
+<wire x1="2.38125" y1="-3.81" x2="-2.38125" y2="-3.81" width="0.0508" layer="39"/>
 </package>
 <package name="SOP8">
 <description>&lt;b&gt;SOP8&lt;/b&gt;&lt;p&gt;
@@ -640,10 +681,10 @@ Source: http://www.rohm.com/products/databook/motor/pdf/bd623x_series-e.pdf</des
 <text x="2" y="5.4" size="1.016" layer="27">&gt;VALUE</text>
 <circle x="-4.5" y="-5" radius="0.5" width="0.127" layer="27"/>
 <pad name="HT" x="0" y="0" drill="3.6" diameter="6.4" shape="square" thermals="no"/>
-<pad name="HT1" x="-2.4" y="2.4" drill="0.6" diameter="1.6" shape="square" thermals="no"/>
-<pad name="HT2" x="-2.4" y="-2.4" drill="0.6" diameter="1.6" shape="square" thermals="no"/>
-<pad name="HT3" x="2.4" y="-2.4" drill="0.6" diameter="1.6" shape="square" thermals="no"/>
-<pad name="HT4" x="2.4" y="2.4" drill="0.6" diameter="1.6" shape="square" thermals="no"/>
+<pad name="HT1" x="-2.4" y="2.4" drill="0.8" diameter="1.6" shape="square" thermals="no"/>
+<pad name="HT2" x="-2.4" y="-2.4" drill="0.8" diameter="1.6" shape="square" thermals="no"/>
+<pad name="HT3" x="2.4" y="-2.4" drill="0.8" diameter="1.6" shape="square" thermals="no"/>
+<pad name="HT4" x="2.4" y="2.4" drill="0.8" diameter="1.6" shape="square" thermals="no"/>
 </package>
 <package name="MSOP8">
 <description>&lt;b&gt;MSOP8&lt;/b&gt;</description>
@@ -1156,7 +1197,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SOP" package="SOP8">
+<device name="-SOP" package="SOP8-3">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="2"/>
@@ -4912,8 +4953,8 @@ grid 5.08 mm, diameter 13 mm</description>
 <part name="SUPPLY52" library="my_supply" deviceset="GND" device=""/>
 <part name="IC15" library="my_ic" deviceset="SI8420" device="" value="SI8620"/>
 <part name="IC16" library="my_ic" deviceset="SI8420" device="" value="SI8620"/>
-<part name="R45" library="my_rcl" deviceset="R" device="-1608" value="ODR"/>
-<part name="R46" library="my_rcl" deviceset="R" device="-1608" value="DOUT"/>
+<part name="R45" library="my_rcl" deviceset="R" device="-1608-3" value="ODR"/>
+<part name="R46" library="my_rcl" deviceset="R" device="-1608-3" value="DOUT"/>
 <part name="R47" library="my_rcl" deviceset="R" device="-1608" value="DCLK"/>
 <part name="R48" library="my_rcl" deviceset="R" device="-1608" value="SDO"/>
 <part name="R54" library="my_rcl" deviceset="R" device="-1608" value="ODR"/>
