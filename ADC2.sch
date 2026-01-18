@@ -4556,8 +4556,8 @@ grid 5.08 mm, diameter 13 mm</description>
 <part name="SUPPLY100" library="my_supply" deviceset="GND" device=""/>
 <part name="C29" library="my_rcl" deviceset="C" device="-1608" value="0.1u"/>
 <part name="SUPPLY101" library="my_supply" deviceset="GND" device=""/>
-<part name="IC12" library="my_ic" deviceset="TLV740" device="" value="1.8V"/>
-<part name="IC13" library="my_ic" deviceset="TLV740" device="" value="2.5V"/>
+<part name="IC12" library="my_ic" deviceset="TLV740" device="" value="2.5V"/>
+<part name="IC13" library="my_ic" deviceset="TLV740" device="" value="1.8V"/>
 <part name="J3" library="my_rcl" deviceset="SJ-3" device="-1608" value="SIG+"/>
 <part name="J5" library="my_rcl" deviceset="SJ-3" device="-1608" value="SIG-"/>
 <part name="R5" library="my_rcl" deviceset="R" device="-1608" value="50"/>
